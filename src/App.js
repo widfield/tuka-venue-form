@@ -128,7 +128,6 @@ function App() {
       headers: {
         Accept: "*/*",
         "Content-Type": "application/json",
-        Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJuc3NzQGFzZC5jb20iLCJuYW1lIjoiTmlrcyB5byIsImlhdCI6MTY2NTM0MTk2OCwiZXhwIjoxNjY2NTUxNTY4fQ.a7opjRdNRNpiKHGpWwJxAYNX9RqvBj32xwqt5m_KO6s`,
       },
       body: JSON.stringify({
         email: user,
