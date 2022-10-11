@@ -106,18 +106,8 @@ function App() {
         }
       );
     }
+    alert("saved");
     setIsSaving(false);
-  };
-
-  const [val, setVal] = useState("");
-
-  const onInputChange = (e) => {
-    setVal((prev) => {
-      if (e.target.value.length <= 2) {
-        return e.target.value;
-      }
-      const sliced = e.target.value.split();
-    });
   };
 
   const handleAdminSubmit = async () => {
